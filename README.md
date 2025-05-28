@@ -10,22 +10,6 @@ fno3d-maoershan: 林区风场 FNO 替代模型
 
 支持与 Fluent 实时耦合，提升大规模 CFD 模拟效率
 
-📂 项目结构
-
-fno3d-maoershan/
-├── data/
-│   ├── raw/               # 原始输入数据
-│   │   ├── maoershan_dem_10m.tif
-│   │   ├── forest_canopy_coverage.tif
-│   │   └── wind_era5_raw.nc
-│   └── processed/         # 匹配网格后的训练数据
-│       └── interpolated_field.h5
-├── model/                # FNO3D 模型定义与训练脚本
-├── scripts/              # 数据处理与可视化脚本
-├── outputs/              # 训练后的模型与预测结果
-├── requirements.txt      # 所需依赖
-└── README.md             # 项目说明文件
-
 🚀 快速开始
 
 # 克隆仓库
@@ -40,9 +24,13 @@ pip install -r requirements.txt
 
 # 查看处理后数据可视化（可选）
 python scripts/visualize_fields.py
+python visualize_feature_maps.py
+python visualize_model_structure.py
+python visualize_output_slices.py
 
 # 开始训练模型
 python model/train_fno3d.py
+或者python train.py
 
 📊 数据说明
 
@@ -53,6 +41,8 @@ DEM 地形数据：来源于 Copernicus（10m 分辨率）
 植被信息：NDVI 或 GEDI 高度图，用于影响表面粗糙度建模
 
 📈 模型结构
+![hybrid_cfd_model_structure](https://github.com/user-attachments/assets/47b556db-691d-4da2-88df-4a7fa41fb53b)
+
 
 基于 Fourier Neural Operator (FNO3D)
 
