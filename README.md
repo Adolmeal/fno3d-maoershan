@@ -33,7 +33,11 @@ python visualize_feature_maps.py
 ![feature_map_4](https://github.com/user-attachments/assets/26fc689f-ac40-4568-923b-dbaafc499b85)
 
 python visualize_model_structure.py
+
+![hybrid_cfd_model_structure](https://github.com/user-attachments/assets/0611eac8-98c7-48bb-89ab-6a3fc4f4bdba)
+
 python visualize_output_slices.py
+
 ![output_pressure_heatmap](https://github.com/user-attachments/assets/931cde2f-f0d7-4327-a193-a8a7869a4a9e)
 ![output_velocity_quiver](https://github.com/user-attachments/assets/74a04ef2-ec57-4ba9-8f23-527b9ebcfbdf)
 
@@ -50,10 +54,11 @@ DEM 地形数据：来源于 Copernicus（10m 分辨率）
 植被信息：NDVI 或 GEDI 高度图，用于影响表面粗糙度建模
 
 📈 模型结构
-![hybrid_cfd_model_structure](https://github.com/user-attachments/assets/47b556db-691d-4da2-88df-4a7fa41fb53b)
+
+![model1](https://github.com/user-attachments/assets/496c18c0-2b37-42f0-a4e4-04b35452e00c)
 
 
-基于 Fourier Neural Operator (FNO3D)
+基于 Fourier Neural Operator (FNO3D)和Tranformer
 
 输入通道：DEM、NDVI、初始风速边界条件
 
