@@ -24,9 +24,17 @@ pip install -r requirements.txt
 
 # 查看处理后数据可视化（可选）
 python scripts/visualize_fields.py
+
 python visualize_feature_maps.py
+![feature_map_1](https://github.com/user-attachments/assets/83832079-263d-4238-93de-af612bf4fcae)
+![feature_map_2](https://github.com/user-attachments/assets/54365b35-17e9-4f3e-879b-2bc1e546ce96)
+![feature_map_3](https://github.com/user-attachments/assets/b973d65c-d2e1-4661-87e9-e43424b9393c)
+![feature_map_4](https://github.com/user-attachments/assets/26fc689f-ac40-4568-923b-dbaafc499b85)
+
 python visualize_model_structure.py
 python visualize_output_slices.py
+![output_pressure_heatmap](https://github.com/user-attachments/assets/931cde2f-f0d7-4327-a193-a8a7869a4a9e)
+![output_velocity_quiver](https://github.com/user-attachments/assets/74a04ef2-ec57-4ba9-8f23-527b9ebcfbdf)
 
 # 开始训练模型
 python model/train_fno3d.py
