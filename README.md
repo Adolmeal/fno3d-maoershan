@@ -28,9 +28,11 @@ python scripts/visualize_fields.py
 python visualize_feature_maps.py
 
 ![feature_map_1](https://github.com/user-attachments/assets/83832079-263d-4238-93de-af612bf4fcae)
-![feature_map_1_smooth](https://github.com/user-attachments/assets/95f6a0ad-0193-4494-9d9e-41b0ec2cf8ac)
 
 ![feature_map_2](https://github.com/user-attachments/assets/54365b35-17e9-4f3e-879b-2bc1e546ce96)
+
+![feature_map_1_smooth](https://github.com/user-attachments/assets/95f6a0ad-0193-4494-9d9e-41b0ec2cf8ac)
+
 ![feature_map_2_smooth](https://github.com/user-attachments/assets/9f66ea43-9d38-4d18-a7c5-b66860120d56)
 
 ![feature_map_3](https://github.com/user-attachments/assets/b973d65c-d2e1-4661-87e9-e43424b9393c)
