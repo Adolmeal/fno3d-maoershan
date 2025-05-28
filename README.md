@@ -28,7 +28,11 @@ python scripts/visualize_fields.py
 python visualize_feature_maps.py
 
 ![feature_map_1](https://github.com/user-attachments/assets/83832079-263d-4238-93de-af612bf4fcae)
+![feature_map_1_smooth](https://github.com/user-attachments/assets/95f6a0ad-0193-4494-9d9e-41b0ec2cf8ac)
+
 ![feature_map_2](https://github.com/user-attachments/assets/54365b35-17e9-4f3e-879b-2bc1e546ce96)
+![feature_map_2_smooth](https://github.com/user-attachments/assets/9f66ea43-9d38-4d18-a7c5-b66860120d56)
+
 ![feature_map_3](https://github.com/user-attachments/assets/b973d65c-d2e1-4661-87e9-e43424b9393c)
 ![feature_map_4](https://github.com/user-attachments/assets/26fc689f-ac40-4568-923b-dbaafc499b85)
 
@@ -40,6 +44,8 @@ python visualize_output_slices.py
 
 ![output_pressure_heatmap](https://github.com/user-attachments/assets/931cde2f-f0d7-4327-a193-a8a7869a4a9e)
 ![output_velocity_quiver](https://github.com/user-attachments/assets/74a04ef2-ec57-4ba9-8f23-527b9ebcfbdf)
+
+![output_pressure_surface3d](https://github.com/user-attachments/assets/968f057c-55e7-4a94-ab97-28ca0a008351)
 
 # 开始训练模型
 python model/train_fno3d.py
@@ -54,6 +60,9 @@ DEM 地形数据：来源于 Copernicus（10m 分辨率）
 植被信息：NDVI 或 GEDI 高度图，用于影响表面粗糙度建模
 
 📈 模型结构
+
+![hybrid_cfd_model pt](https://github.com/user-attachments/assets/eb8efde9-b06e-445b-a8bd-232070b97f50)
+
 
 ![model1](https://github.com/user-attachments/assets/496c18c0-2b37-42f0-a4e4-04b35452e00c)
 
