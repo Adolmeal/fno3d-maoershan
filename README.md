@@ -26,6 +26,7 @@ pip install -r requirements.txt
 python scripts/visualize_fields.py
 
 python visualize_feature_maps.py
+
 ![feature_map_1](https://github.com/user-attachments/assets/83832079-263d-4238-93de-af612bf4fcae)
 ![feature_map_2](https://github.com/user-attachments/assets/54365b35-17e9-4f3e-879b-2bc1e546ce96)
 ![feature_map_3](https://github.com/user-attachments/assets/b973d65c-d2e1-4661-87e9-e43424b9393c)
