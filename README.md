@@ -1,4 +1,4 @@
-fno3d-maoershan: 林区风场 FNO 替代模型
+fno3d-maoershan: 林区风场 FNO/Tranformer的混合神经网络替代pimpleFoam求解的训练模型
 
 该项目旨在构建一个基于 Fourier Neural Operator (FNO) 的 3D 神经网络模型，用于模拟和预测帽儿山林区复杂地形中的风场分布。
 
