@@ -13,7 +13,7 @@ fno3d-maoershan: 林区风场 FNO/Tranformer的混合神经网络替代pimpleFoa
 🚀 快速开始
 
 # 克隆仓库
-https://github.com/Adolmeal/fno3d-maoershan.git
+git clone https://github.com/Adolmeal/fno3d-maoershan.git
 
 # 创建虚拟环境
 python -m venv fno3d_env
